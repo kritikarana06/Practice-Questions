@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int r,i,j,n,sum=0;
     printf("enter the size of rows");
@@ -29,8 +29,12 @@ void main()
 
     }
     if(sum==0)
-    printf("lowertriangulAR");
+    {
+        printf("lowertriangulAR");
+    }
     else
-    printf("not");
-    
+    {
+        printf("Uppertriangular");
+    }
+    return 0;
 }
