@@ -19,7 +19,7 @@ int main()
 
     }
     printf("\nThe concatenated string is %s\n",s1);
-    
+    return 0;
     
     
 }
